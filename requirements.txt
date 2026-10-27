@@ -1,0 +1,8 @@
+# Direct dependencies used for the CPU checks (Python 3.13.5).
+# The original saved outputs predate this environment; see README.md.
+torch==2.14.1
+numpy==2.5.4
+matplotlib==3.11.2
+tqdm==4.70.1
+jupyterlab==4.6.4
+ipykernel==7.4.0
