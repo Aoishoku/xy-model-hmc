@@ -82,14 +82,4 @@ Invalid controls, including `n_meas > n_iter` (no measurements), fail before sam
 
 ## Interpretation and limitations
 
-The final notebook section records mathematical comments and implementation
-limitations without changing the scientific formulas. In particular, opposite
-winding sign conventions and an incorrect wrapping comment are documented;
-constant-series autocorrelation now raises an explicit error. Error bars and
-mixing diagnostics remain approximate: the saved $L=32$, $\beta=0.9$ chain has only
-about 24 effective magnetisation samples. Finite-size magnetisation and high
-acceptance do not establish thermodynamic order or adequate mixing. The helicity
-plots have no resampling uncertainty estimates.
-
-For background: [Neal, *MCMC using Hamiltonian dynamics*](https://arxiv.org/abs/1206.1901)
-and [Hasenbusch, *The two dimensional XY model at the transition temperature*](https://arxiv.org/abs/cond-mat/0502556).
+Some observables like spin-spin correlation and heat capacity haven't been implemented yet. A sampler more suited to the XY model like Wolff needs to be included as a reliable benchmarking reference for a diffusion-based model.
