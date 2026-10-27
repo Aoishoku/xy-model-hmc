@@ -1,9 +1,6 @@
 # Hamiltonian Monte Carlo for the 2D XY model
 
-An independent numerical project exploring the classical XY model with Hamiltonian
-Monte Carlo (HMC). I implemented the sampler, checks and observable measurements in
-[one Jupyter notebook](XYmodel_metropolis.ipynb), using PyTorch for tensors and
-automatic differentiation. The notebook is the main record of the work, including its saved simulation outputs.
+I wrote this code as part of my master project to investigate Monte Carlo sampling and critical behaviour in the 2D XY model, implementing Hamiltonian Monte Carlo and several physical observables from scratch in PyTorch. This code will later be used to generate training data for a diffusion based sampler.
 
 ## Model and implementation
 
